@@ -29,7 +29,7 @@ gem "jwt"
 gem "pagerduty", ">= 4.0"
 gem "stripe"
 gem "countries"
-gem "octokit"
+gem "octokit", ">= 9.2.0"
 gem "argon2-kdf"
 
 group :development do
@@ -61,4 +61,4 @@ gem "webauthn", "~> 3.1"
 
 gem "aws-sdk-s3", "~> 1.159"
 
-gem "acme-client", "~> 2.0"
+gem "acme-client", "~> 2.0", ">= 2.0.19"
